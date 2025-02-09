@@ -1,0 +1,18 @@
+﻿//config.json//
+{
+    "DatabaseConfig": {
+        "Server": "RYAN\\TESTDB02",
+        "Database": "TEST_RAW_DATA_IMP",
+        "IntegratedSecurity": true,
+        "Username": "",
+        "Password": ""
+    },
+    "ProcessConfig": {
+        "CsvFolderPath": "E:\\Project_IMP\\CSVImporter\\CsvFileIMP",
+        "TempTableName": "IMP_TEMP_TABLE",
+        "DestinationTableName": "DTR_RAW_IMP",
+        "ErrorTableName": "DTR_ERROR_LOG",
+        "SuccessLogTableName": "DTR_SUCCESS_LOG",
+        "BatchSize": 100000
+    }
+}
